@@ -1,0 +1,11 @@
+[package]
+name = "caesar_cipher_cracker"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+criterion = "0.4"
+
+[[bench]]
+name = "caesar_shift"
+harness = false
